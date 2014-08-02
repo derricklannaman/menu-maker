@@ -19,7 +19,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
-
+gem 'ffaker'
+gem 'puma'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
@@ -30,8 +31,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
-gem 'thin',          group: :development
 gem 'quiet_assets',  group: :development
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
