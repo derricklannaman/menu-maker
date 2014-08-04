@@ -2,7 +2,7 @@ namespace :db do
 
   task populate: :environment do
 
-    FoodItem.destroy_all
+    Food.destroy_all
 
     def random_portions
       (1..16).to_a.sample
@@ -17,7 +17,7 @@ namespace :db do
     end
 
     20.times do
-      FoodItem.create(
+      Food.create(
         name: Faker::BaconIpsum.word,
         portion: random_portions,
         calories: random_calories,

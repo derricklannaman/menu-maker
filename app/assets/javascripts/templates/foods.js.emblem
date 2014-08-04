@@ -1,0 +1,5 @@
+article#leads
+  h1 Menu Items
+  ul
+    each food in controller
+      li= food.name
