@@ -1,0 +1,23 @@
+article#lead
+  h1= model.name
+
+  p
+    ' Name:
+    model.name
+
+  p
+    ' Portion Size:
+    model.portion
+    '  oz
+
+  p
+    ' Calories:
+    model.calories
+
+  p
+    ' Meal:
+    model.mealType
+
+  p
+    ' Notes:
+    model.notes

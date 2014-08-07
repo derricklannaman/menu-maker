@@ -5,9 +5,8 @@ App.Router.reopen({
   rootURL: '/'
 })
 
-
 App.Router.map(function() {
   this.resource('foods', { path: '/'}, function(){
-    this.resource('food', { path: '/foods/:id'});
+    this.resource('food', { path: '/foods/:id' });
   })
-});
+})
